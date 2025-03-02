@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học Lịch Sử & Địa Lý</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chào mừng đến với trang học tập</h1>
+
+        <!-- Chọn môn học -->
+        <div class="subject-selection">
+            <button onclick="changeSubject('history')">📖 Lịch Sử</button>
+            <button onclick="changeSubject('geography')">🌍 Địa Lý</button>
+        </div>
+
+        <!-- Chọn chế độ học -->
+        <div class="mode-selection">
+            <button onclick="showQuiz()">Trắc nghiệm</button>
+            <button onclick="showEssay()">Tự luận</button>
+        </div>
+
+        <!-- Phần Trắc nghiệm -->
+        <div id="quiz-section" class="hidden">
+            <h2>Câu hỏi trắc nghiệm</h2>
+            <p id="quiz-question">...</p>
+            <div id="quiz-options"></div>
+            <p id="quiz-result"></p>
+        </div>
+
+        <!-- Phần Tự luận -->
+        <div id="essay-section" class="hidden">
+            <h2>Bài tập tự luận</h2>
+            <p id="essay-question">...</p>
+            <textarea id="essay-answer" placeholder="Nhập câu trả lời của bạn..."></textarea>
+            <button id="submit-essay">Gửi bài</button>
+            <p id="essay-result"></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
