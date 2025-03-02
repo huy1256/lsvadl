@@ -3,8 +3,38 @@ const subjects = {
         quizQuestions: [
             {
                 question: "Ai là người thành lập nước Việt Nam Dân Chủ Cộng Hòa?",
-                options: ["Trần Hưng Đạo", "Hồ Chí Minh", "Lê Lợi", "Nguyễn Huệ"],
-                answer: "Hồ Chí Minh"
+                options: ["Trần Hưng Đạo", "Bác Hồ", "Lê Lợi", "Nguyễn Huệ"],
+                answer: "Bác Hồ"
+            },
+            {
+                question: "Ở Pháp, vào cuối thế kỉ XVIII, những đẳng cấp nào không phải đóng thuế?",
+                options: ["Quý tộc và Đẳng cấp thứ ba", "Tăng lữ Giáo hội và Quý tộc", "Đẳng cấp thứ ba và Tăng lữ", "Giai cấp tư sản và nông dân"],
+                answer: "Tăng lữ Giáo hội và Quý tộc"
+            },
+            {
+                question: "Động cơ hơi nước là phát minh của ai?",
+                options: ["Giêm Ha-gri-vơ", "Ét-mơn các-rai.", "Hen-ri Cót", "Giêm Oát"],
+                answer: "Giêm Oát"
+            },
+            {
+                question: "Năm 1698, chúa Nguyễn Phúc Chu đã cử ai vào kinh lí vùng đất phía Nam?",
+                options: ["Lương Văn Chánh", "Đào Duy Từ", "Nguyễn Hữu Cảnh", "Mạc Cửu"],
+                answer: "Mạc Cửu"
+            },
+            {
+                question: "Cuộc khởi nghĩa của Hoàng Công Chất (1739 - 1769) diễn ra chủ yếu tại khu vực nào của Đàng Ngoài?",
+                options: ["Đông Bắc", "Bắc Trung Bộ", "Đồng bằng Bắc Bộ", "Tây Bắc"],
+                answer: "Đồng bằng Bắc Bộ"
+            },
+            {
+                question: "Về mặt xã hội, tác động quan trọng nhất của cách mạng công nghiệp là hình thành hai giai cấp cơ bản của xã hội tư bản, đó là?",
+                options: ["tư sản và địa chủ", "địa chủ và nông dân", "công nhân và nông dân", "tư sản và vô sản"],
+                answer: "tư sản và vô sản"
+            },
+            {
+                question: "Đến Giữa Năm 1774 Nghĩa Quân Tây Sơn Đã Làm Chủ Được Khu Vực Nào?",
+                options: ["Quảng Nam Đến Bình Thuận", "Bình Thuận Đến Gia Định", "Quảng Nam Đến Gia Định", "Phú Xuân Đến Gia Định"],
+                answer: "Quảng Nam Đến Bình Thuận"
             },
             {
                 question: "Chiến thắng Điện Biên Phủ diễn ra vào năm nào?",
@@ -14,8 +44,8 @@ const subjects = {
         ],
         essayQuestions: [
             {
-                question: "Trình bày nguyên nhân và ý nghĩa của chiến thắng Điện Biên Phủ?",
-                answer: "Chiến thắng này có ý nghĩa quan trọng, kết thúc chiến tranh Đông Dương và mở đường cho Hiệp định Geneva."
+                question: "Tư liệu. “Nếu con đối với cha mẹ, cháu đối với ông bà già trên 80 tuổi mà lại bịnh nặng, trong nhà không có ai thay mình hầu hạ, lại không chịu về hầu hạ mà ham vinh hoa, lợi lộc, bỏ nhiệm vụ hầu cha mẹ. Tội này cũng khép vào tội bỏ nhiệm vụ chăm sóc cha mẹ”.(Nguyễn Văn Thành, Vũ Trinh, Trần Hựu, Hoàng Việt luật lệ (Luật Gia Long), Tập 3, NXB Văn hoá - Thông tin, Hà Nội, 1994, tr.448) Cho biết đoạn tư liệu phản ánh thành tựu nào của nước Việt Nam dưới thời nhà Nguyễn",
+                answer: "Thành tựu: Hoàng Việt luật lệ còn gọi là: Luật Gia Long Ý nghĩa: là luật pháp thành văn của nhà Nguyễn góp phần quản lí đất nước và ổn định xã hội"
             },
             {
                 question: "Nêu những điểm chính trong Tuyên ngôn Độc lập năm 1945 của Việt Nam?",
